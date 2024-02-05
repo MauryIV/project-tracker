@@ -1,0 +1,47 @@
+:root {
+  --main-dk-color: rgb(20, 50, 78);
+  --main-lt-color: rgb(248, 249, 250);
+  --accent-dk-color: rgb(63, 9, 63);
+}
+
+.add,
+.top {
+  background-color: var(--accent-dk-color);
+}
+
+.header,
+h1,
+h3,
+h4 {
+  background-color: var(--main-dk-color);
+}
+
+#motivate {
+  color: var(--accent-lt-color);
+}
+
+/* this is needed to put the dropdown menu on top of the modal */
+.ui-autocomplete {
+  z-index: 9999;
+}
+
+#exit {
+  color: var(--main-dk-color);
+  color: var(--main-lt-color);
+  border-color: var(--accent-lt-color);
+}
+
+#save {
+  border-color: var(--accent-lt-color);
+}
+
+#save:disabled {
+  background-color: grey;
+  border-color: grey;
+}
+
+.btn:hover,
+.close:hover {
+  background-color: var(--main-dk-color);
+  color: var(--main-lt-color);
+}
