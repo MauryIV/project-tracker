@@ -45,3 +45,13 @@ h4 {
   background-color: var(--main-dk-color);
   color: var(--main-lt-color);
 }
+
+.late {
+  background-color: rgb(209, 11, 11, .3);
+  color: var(--accent-dk-color);
+}
+
+.due-today {
+  background-color: rgb(254, 255, 81, .3);
+  color: var(--accent-dk-color);
+}
